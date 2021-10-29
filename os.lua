@@ -6,7 +6,5 @@ local function background()
   gpu.set(2, 2, "test")
 end
 
-while true do
-  background()
-  term.clear()
-end
+term.clear()
+background()
