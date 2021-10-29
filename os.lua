@@ -3,7 +3,7 @@ local gpu = component.gpu
 local term = require("term")
 
 local function background()
-  gpu.setBackground(#07967C)
+  gpu.setBackground(0x023f63)
   gpu.fill(0, 0, 10, 10, " ")
 end
 
