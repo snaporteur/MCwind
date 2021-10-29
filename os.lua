@@ -12,7 +12,7 @@ end
 term.clear()
 
 while true do
-  if started do
+  if started == true then
     background_start()
     term.clear()
   end
