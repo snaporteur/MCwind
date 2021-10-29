@@ -7,6 +7,6 @@ local function background()
 end
 
 while true do
-  term.clear()
   background()
+  term.clear()
 end
